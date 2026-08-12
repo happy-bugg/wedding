@@ -1,0 +1,22 @@
+export default {
+  plugins: ['prettier-plugin-tailwindcss'],
+  // Tailwind v4 는 설정 파일 대신 CSS 진입점을 참조합니다
+  tailwindStylesheet: './src/index.css',
+  arrowParens: 'always',
+  bracketSameLine: false,
+  bracketSpacing: true,
+  embeddedLanguageFormatting: 'auto',
+  htmlWhitespaceSensitivity: 'css',
+  insertPragma: false,
+  jsxSingleQuote: true,
+  printWidth: 80,
+  proseWrap: 'always',
+  quoteProps: 'as-needed',
+  requirePragma: false,
+  semi: false,
+  singleAttributePerLine: true,
+  singleQuote: true,
+  tabWidth: 2,
+  trailingComma: 'es5',
+  useTabs: false,
+}
